@@ -24,3 +24,7 @@ hr {
   border-top: 2px solid #000000;
   padding: 0;
 }
+
+#badges img {
+    image-rendering: pixelated
+}
