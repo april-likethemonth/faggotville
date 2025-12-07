@@ -28,3 +28,23 @@ hr {
 #badges img {
     image-rendering: pixelated
 }
+
+#puppytrap {
+    position: absolute; 
+    bottom: 0px; 
+}
+
+#badpuppypopup {
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #E7F8EA;
+    height: 30vw;
+    width: 30vw;
+    padding: 30px;
+}
+#badpuppypopup img {
+    height: 100%;
+}

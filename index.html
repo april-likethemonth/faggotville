@@ -31,6 +31,18 @@
             <a href="https://aspenr.dev/"><img src="88x31/aspendev.gif" alt="aspen"></a>
             <a href="https://julia.fish/"><img src="88x31/juliafish.png" alt="julia again, but this one is a fish"></a>
         </div>
+        <div id="puppytrap" onclick="popup()">
+            <p>don't click this</p>
+        </div>
+        <div id="badpuppypopup">
+            <img src="caption.gif">
+        </div>
     </body>
 </html>
-
+<script>
+// When the user clicks on <div>, open the popup
+function popup() {
+  var popup = document.getElementById("badpuppypopup");
+  popup.style.visibility = 'visible'
+}
+</script>
